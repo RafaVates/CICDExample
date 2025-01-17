@@ -17,6 +17,7 @@ function App() {
         </a>
       </div>
       <h1>Mi version de prueba para crear un pipeline/actions en gitlab/github</h1>
+      <p>Verificando mi primer CI</p>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
