@@ -28,6 +28,7 @@ function App() {
       </div>
       <h1>Mi version de prueba para crear un pipeline/actions en gitlab/github</h1>
       <p>Verificando mi primer CI</p>
+      <p>Creando una nueva branch sprint 1 para mergear en main</p>
       <p>Nombre: {nombre} - {import.meta.env.VITE_CARGO}</p>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
