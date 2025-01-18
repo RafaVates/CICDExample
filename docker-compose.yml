@@ -4,6 +4,10 @@ services:
     build: 
       context: .
       dockerfile: Dockerfile
+      args:
+        - VITE_EDAD=32
+    environment:
+      - VITE_APELLIDO=Skorpio
     ports:
       - '80:80'
 
